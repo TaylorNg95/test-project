@@ -1,12 +1,13 @@
-import Button from "./Button"
+import SearchBar from "./SearchBar"
+import Filter from "./Filter"
 
-function Header({fname, lname, surface, tournamentTotal}) {
+function Header() {
     return (
-        <>
-            <div>Hello {fname} {lname}, your favorite surface is {surface.toLowerCase()} and you have played in {tournamentTotal} tournaments.</div>
-            
-            <Button />
-        </>
+        <div style={{backgroundColor: 'blue', color: 'white'}}>
+            <h1>Tennis Player Tracker</h1>
+            <SearchBar />
+            <Filter />
+        </div>
     )
 }
 

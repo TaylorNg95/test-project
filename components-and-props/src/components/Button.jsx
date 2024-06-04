@@ -1,10 +1,3 @@
-function Button() {
-    return (
-        <button>Add Tournament</button>
-    )
-}
-
-export default Button
 
 
 

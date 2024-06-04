@@ -1,12 +1,12 @@
-import { useEffect } from "react"
+import Button from "./Button"
 
-function Header({name, age}) {
-    useEffect(() => {
-        console.log('b', name)
-      }, [])
-
+function Header({fname, lname, surface, tournamentTotal}) {
     return (
-        <div>Hello {name}, you are {age} years old</div>
+        <>
+            <div>Hello {fname} {lname}, your favorite surface is {surface.toLowerCase()} and you have played in {tournamentTotal} tournaments.</div>
+            
+            <Button />
+        </>
     )
 }
 

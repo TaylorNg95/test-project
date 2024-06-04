@@ -1,23 +1,15 @@
-import BlueParagraph from "./StyledComponents/BlueParagraph"
 import Header from "./components/Header"
-/* import './App.css' */
-import { headers } from './globals'
-import { useEffect } from "react"
+import Button from "./components/Button"
+import playerData from "./data/data"
 
 function App() {
-
-  useEffect(() => {
-    console.log('a')
-  }, [])
-  
-  console.log(headers)
-
   return (
     <>
-      <Header name="Nancy" age={61}/>
-      <Header name="Arthur" age={64}/>
-      <BlueParagraph>Mwahaha</BlueParagraph>
-      <BlueParagraph>Testing</BlueParagraph>
+      <Header
+        fname={playerData.fname}
+        lname={playerData.lname}
+        surface={playerData.surface}
+        tournamentTotal={playerData.tournamentTotal}/>
     </>
   )
 }

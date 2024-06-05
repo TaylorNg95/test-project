@@ -1,4 +1,4 @@
-/* const playerData = [
+const playerData = [
     {
         id: 1,
         fname: 'Taylor',
@@ -6,12 +6,6 @@
         surface: 'Clay',
         rank: 300,
         country: 'USA',
-        tournaments: {
-            q1: 4,
-            q2: 4,
-            q3: 4,
-            q4: 4
-        }
     },
     {
         id: 2,
@@ -19,13 +13,7 @@
         lname: 'Jokic',
         surface: 'Hard',
         rank: 500,
-        country: 'Serbia',
-        tournaments: {
-            q1: 3,
-            q2: 2,
-            q3: 1,
-            q4: 5
-        }
+        country: 'Serbia'
     },
     {
         id: 3,
@@ -33,13 +21,7 @@
         lname: 'Collens',
         surface: 'Grass',
         rank: 600,
-        country: 'USA',
-        tournaments: {
-            q1: 6,
-            q2: 6,
-            q3: 3,
-            q4: 5
-        }
+        country: 'USA'
     },
     {
         id: 4,
@@ -47,31 +29,8 @@
         lname: 'Proctor',
         surface: 'Clay',
         rank: 300,
-        country: 'USA',
-        tournaments: {
-            q1: 3,
-            q2: 5,
-            q3: 4,
-            q4: 2
-        }
+        country: 'USA'
     }
 ]
- */
-
-const playerData = {
-    id: 1,
-    fname: 'Taylor',
-    lname: 'Ng',
-    surface: 'Clay',
-    rank: 300,
-    country: 'USA',
-    tournamentTotal: 16,
-    tournaments: {
-        q1: 4,
-        q2: 4,
-        q3: 4,
-        q4: 4
-    }
-}
 
 export default playerData

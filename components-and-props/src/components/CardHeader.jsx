@@ -1,8 +1,8 @@
-function CardHeader() {
+function CardHeader({fname, lname, img}) {
     return (
         <>
-            <h2>Taylor Ng</h2>
-            <img src="https://tse4.mm.bing.net/th?id=OIP.Pn090AUUgdg_r1s-qHKgNgHaJ4&pid=Api&P=0&h=220"></img>
+            <h2>{fname} {lname}</h2>
+            <img style={{width: '100%'}}src={img}></img>
         </>
     )
 }

@@ -1,8 +1,12 @@
+function Button({handleTournAdd}) {
+    return (
+        <>
+            <button onClick={handleTournAdd}>Add Tournament</button>
+        </>
+    )
+}
 
-
-
-
-
+export default Button
 
 
 
